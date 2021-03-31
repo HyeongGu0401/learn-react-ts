@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="PHG" style={{ fontFamily: "MaplestoryOTFBold" }}>
+        HyeongGu
+      </div>
+      <div className="Dev" style={{ fontFamily: "GongGothicMedium" }}>
+        평범한 학생 프론트엔드 개발자입니다.
+        <div className="skill">기술 스택</div>
+      </div>
     </div>
   );
 }
